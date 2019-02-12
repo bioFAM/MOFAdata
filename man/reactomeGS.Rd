@@ -3,13 +3,26 @@
 \docType{data}
 \name{reactomeGS}
 \alias{reactomeGS}
-\title{reactomeGS}
-\format{A matrix containing feature binary membership indictors for different genes (in columns)
- and Reactome Gene Sets (in rows).}
+\alias{MSigDB_v6.0_C2_mouse}
+\title{MSigDB_v6.0_C2_mouse}
+\format{Rows contain biological pathways and columns contain genes (ensemble IDs).}
 \usage{
+data(reactomeGS)
+
 data(reactomeGS)
 }
 \description{
-A matrix containing feature binary membership indictors for the Reactome Gene Sets.
+A matrix containing mouse gene sets from the MSigDB data base (http://software.broadinstitute.org/gsea/msigdb).
+\describe{
+\item{specie:}{Mus musculus}
+\item{MSigDB version:}{6.0, which corresponds to Ensembl version 75}
+\item{Collection:}{C2, curated gene sets from online pathway databases, publications in PubMed, and knowledge of domain experts.}
+}
+
+A matrix containing human gene sets from the Reactome Pathway data base (https://reactome.org).
+\describe{
+\item{specie:}{Homo sapiens}
+\item{Reactome version:}{59, which corresponds to Ensembl version 75}
+}
 }
 \keyword{datasets}
