@@ -4,12 +4,13 @@
 \name{reactomeGS}
 \alias{reactomeGS}
 \title{reactomeGS}
-\format{A matrix containing feature binary membership indictors for different genes (in columns)
- and Reactome Gene Sets (in rows).}
+\format{A matrix containing feature binary membership indictors for
+different genes (in columns) and Reactome Gene Sets (in rows).}
 \usage{
 data(reactomeGS)
 }
 \description{
-A matrix containing feature binary membership indictors for the Reactome Gene Sets.
+A matrix containing feature binary membership indictors
+for the Reactome Gene Sets.
 }
 \keyword{datasets}

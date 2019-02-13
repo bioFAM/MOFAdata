@@ -4,12 +4,15 @@
 \name{CLL_data}
 \alias{CLL_data}
 \title{CLL_data}
-\format{A list containing omic measurements for n=200 patient samples that are used as input data for MOFA
+\format{A list containing omic measurements for n=200 patient samples
+that are used as input data for MOFA
 \itemize{
   \item{mRNA: }{normalized expression values of most variable genes, p=5000}
-  \item{Methylation: }{methylation M-values in most varibale CpG sites, p=4248}
-  \item{Drugs: }{viability values in response t different drugs adn concentrations, p=310}
-  \item{Mutations: }{Mutation status for selected genes, p=69}
+  \item{Methylation: }{methylation M-values in most varibale
+   CpG sites, p=4248}
+  \item{Drugs: }{viability values in response to different drugs
+   and concentrations, p=310}
+  \item{Mutations: }{mutation status for selected genes, p=69}
 }}
 \usage{
 data(CLL_data)
