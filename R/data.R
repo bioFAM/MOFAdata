@@ -18,9 +18,11 @@
 
 #' CLL_covariates
 #'
-#' Data frame containing additional information on the patient samples, i.e. diagnosis and gender.
+#' Data frame containing additional information on the patient samples,
+#' i.e. diagnosis and gender.
 #'
-#' @format A data frame diagnosis and gender for the n=200 patient samples in CLL_data
+#' @format A data frame diagnosis and gender for the n=200 patient
+#' samples in CLL_data
 #' @name CLL_covariates
 #' @usage data(CLL_covariates)
 "CLL_covariates"
@@ -102,6 +104,7 @@
 #'   \item{Met Enhancers: }{Methylation values for 5000 CpGs overlapping enhancer elements}
 #'   \item{Met CpG Islands: }{Methylation values for 5000 CpGs overlapping CpG Islands}
 #'   \item{Met Promoters: }{Methylation values for 5000 CpGs overlapping promoters}
+
 #' } 
 #' @name scMT_data
 #' @usage data(scMT_data)

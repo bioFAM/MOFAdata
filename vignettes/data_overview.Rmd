@@ -12,7 +12,11 @@ vignette: >
   %\VignetteEncoding{UTF-8}
 ---
 
-The MOFAdata package contains several data sets to be used for illustration pruposes in the R package MOFA. Please refer to the vignettes in the MOFA package, where we explain in detail how MOFA can be trained on the data and how the resulting model is to be analysed.
+The MOFAdata package contains several data sets to be used
+for illustration pruposes in the R package MOFA. 
+Please refer to the vignettes in the MOFA package,
+where we explain in detail how MOFA can be trained on the data
+and how the resulting model is to be analysed.
 
 ```{r, warning=FALSE, message=FALSE}
 library(MOFAdata)
@@ -21,7 +25,9 @@ library(MultiAssayExperiment)
 
 In MOFAdata we store the following data objects to be used with MOFA:
 
-* Preprocessed data on 200 CLL patients with mRNA, methylation, drug response and mutation profiles [@cllpaper], used as input for MOFA in [@MOFApaper].
+* Preprocessed data on 200 CLL patients with
+mRNA, methylation, drug response and mutation profiles [@cllpaper],
+used as input for MOFA in [@MOFApaper].
 
 ```{r, warning=FALSE, message=FALSE}
 # Load data
@@ -34,13 +40,18 @@ data("CLL_covariates")
 head(CLL_covariates)
 ```
 
-* scMT data: Preprocessed data on 87 single cells [@angermueller2016parallel] profiled using single-cell methylation and transcriptome sequencing, used as input to MOFA in  [@MOFApaper].
+* scMT data: Preprocessed data on 87 single cells [@angermueller2016parallel],
+profiled using single-cell methylation and transcriptome sequencing,
+used as input to MOFA in  [@MOFApaper].
 
 ```{r, warning=FALSE, message=FALSE}
 data("scMT_data") 
 scMT_data
 ```
 
-* other data include trained MOFA models for the above data sets as analysed in [@MOFApaper] and REACTOME gene set information [@fabregat2015reactome] to be used in the MOFA package for gene set enrichment analysis of trained models.
+* other data include trained MOFA models for the above data sets
+as analysed in [@MOFApaper] and REACTOME gene set information
+[@fabregat2015reactome] to be used in the MOFA package
+for gene set enrichment analysis of trained models.
 
 # References

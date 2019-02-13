@@ -4,11 +4,13 @@
 \name{CLL_covariates}
 \alias{CLL_covariates}
 \title{CLL_covariates}
-\format{A data frame diagnosis and gender for the n=200 patient samples in CLL_data}
+\format{A data frame diagnosis and gender for the n=200 patient
+samples in CLL_data}
 \usage{
 data(CLL_covariates)
 }
 \description{
-Data frame containing additional information on the patient samples, i.e. diagnosis and gender.
+Data frame containing additional information on the patient samples,
+i.e. diagnosis and gender.
 }
 \keyword{datasets}
