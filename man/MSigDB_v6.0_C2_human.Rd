@@ -4,14 +4,17 @@
 \name{MSigDB_v6.0_C2_human}
 \alias{MSigDB_v6.0_C2_human}
 \title{MSigDB_v6.0_C2_human}
-\format{Rows contain biological pathways and columns contain genes}
+\format{Matrix containing 1329 biological pathways in rows and 20086 genes in columns}
+\source{
+\url{http://software.broadinstitute.org/gsea/msigdb}
+}
 \usage{
 data(MSigDB_v6.0_C2_human)
 }
 \description{
 A matrix containing human gene sets from the MSigDB 6.0 data base (http://software.broadinstitute.org/gsea/msigdb).
 \describe{
-\item{specie:}{Homo sapiens}
+\item{species:}{Homo sapiens}
 \item{Gene IDs:}{Ensembl IDs from version 75 (i.e. ENSG00000125798)}
 \item{Collection:}{C2, curated gene sets from online pathway databases, publications in PubMed, and knowledge of domain experts.}
 }

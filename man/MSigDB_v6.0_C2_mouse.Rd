@@ -4,14 +4,17 @@
 \name{MSigDB_v6.0_C2_mouse}
 \alias{MSigDB_v6.0_C2_mouse}
 \title{MSigDB_v6.0_C2_mouse}
-\format{Rows contain biological pathways and columns contain genes}
+\format{Matrix containing 4731 biological pathways in rows and 18360 genes in columns}
+\source{
+\url{http://software.broadinstitute.org/gsea/msigdb}
+}
 \usage{
 data(MSigDB_v6.0_C2_mouse)
 }
 \description{
 A matrix containing mouse gene sets from the MSigDB 6.0 data base (http://software.broadinstitute.org/gsea/msigdb).
 \describe{
-\item{specie:}{Mus musculus}
+\item{species:}{Mus musculus}
 \item{Gene IDs:}{Gene symbol/name (i.e. FOXA2)}
 \item{Collection:}{C2, curated gene sets from online pathway databases, publications in PubMed, and knowledge of domain experts.}
 }

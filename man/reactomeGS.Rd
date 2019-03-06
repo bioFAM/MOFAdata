@@ -4,14 +4,17 @@
 \name{reactomeGS}
 \alias{reactomeGS}
 \title{reactomeGS}
-\format{Rows contain biological pathways and columns contain genes (ensemble IDs).}
+\format{Matrix containing 1304 biological pathways in rows and 18818 genes (ensemble IDs) in columns.}
+\source{
+\url{https://reactome.org}
+}
 \usage{
 data(reactomeGS)
 }
 \description{
 A matrix containing human gene sets from the Reactome v59 Pathway data base (https://reactome.org).
 \describe{
-\item{specie:}{Homo sapiens}
+\item{species:}{Homo sapiens}
 \item{Gene IDs:}{Ensembl IDs from version 75 (i.e. ENSG00000125798)}
 }
 }

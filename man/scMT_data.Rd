@@ -11,12 +11,15 @@
   \item{Met CpG Islands: }{Methylation values for 5000 CpGs overlapping CpG Islands}
   \item{Met Promoters: }{Methylation values for 5000 CpGs overlapping promoters}
 }}
+\source{
+\url{https://www.ncbi.nlm.nih.gov/pubmed/26752769}
+}
 \usage{
 data(scMT_data)
 }
 \description{
 A MultiAssayExperiment containing data from a single cell multi-omics study (scMT-seq) on mouse embryonic stem cells (mESCs). \cr
-The data set was originally published in \code{https://www.ncbi.nlm.nih.gov/pubmed/26752769}.\cr
-The MOFA analysis for this data set can be found in \code{http://msb.embopress.org/content/14/6/e8124}
+The data set was originally published in \url{https://www.ncbi.nlm.nih.gov/pubmed/26752769}.\cr
+The MOFA analysis for this data set can be found in \url{http://msb.embopress.org/content/14/6/e8124}
 }
 \keyword{datasets}

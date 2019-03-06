@@ -11,12 +11,15 @@
   \item{Drugs: }{viability values in response to 310 different drugs and concentrations}
   \item{Mutations: }{Mutation status for 69 selected genes}
 }}
+\source{
+\url{\code{https://www.ncbi.nlm.nih.gov/pubmed/29227286}}
+}
 \usage{
 data(CLL_data)
 }
 \description{
 A list containing different omic measurements for Chronic lymphocytic leukaemia (CLL) patient samples. \cr
-The data set was originally published in \code{https://www.ncbi.nlm.nih.gov/pubmed/29227286}.\cr
-The MOFA analysis for this data set can be found in \code{http://msb.embopress.org/content/14/6/e8124}
+The data set was originally published in \url{https://www.ncbi.nlm.nih.gov/pubmed/29227286}.\cr
+The MOFA analysis for this data set can be found in \url{http://msb.embopress.org/content/14/6/e8124}
 }
 \keyword{datasets}

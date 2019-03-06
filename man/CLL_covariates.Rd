@@ -6,6 +6,9 @@
 \title{CLL_covariates}
 \format{A data frame diagnosis and gender for the n=200 patient
 samples in CLL_data}
+\source{
+\url{\code{https://www.ncbi.nlm.nih.gov/pubmed/29227286}}
+}
 \usage{
 data(CLL_covariates)
 }
