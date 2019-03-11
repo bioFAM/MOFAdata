@@ -1,7 +1,7 @@
 Package: MOFAdata
 Type: Package
 Title: Data package for Multi-Omics Factor Analysis (MOFA)
-Version: 0.99.3
+Version: 0.99.4
 Maintainer: Ricard Argelaguet <ricard@ebi.ac.uk> and Britta Velten <britta.velten@embl.de>
 Author: Ricard Argelaguet, Britta Velten, Damien Arnol, Florian Buettner, Wolfgang Huber, Oliver Stegle
 Date: 2018-06-26
@@ -12,6 +12,6 @@ Encoding: UTF-8
 Suggests: knitr, MultiAssayExperiment
 biocViews: ReproducibleResearch
 VignetteBuilder: knitr
-LazyData: true
+LazyData: false
 NeedsCompilation: yes
 RoxygenNote: 6.1.1
