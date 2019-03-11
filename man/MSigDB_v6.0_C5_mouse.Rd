@@ -12,7 +12,7 @@
 data(MSigDB_v6.0_C5_mouse)
 }
 \description{
-A matrix containing mouse gene sets from the MSigDB 6.0 data base (http://software.broadinstitute.org/gsea/msigdb).
+A matrix containing mouse gene sets from the MSigDB 6.0 data base (\url{http://software.broadinstitute.org/gsea/msigdb}).
 \describe{
 \item{species:}{Mus musculus}
 \item{Gene IDs:}{Gene symbol/name (i.e. FOXA2)}

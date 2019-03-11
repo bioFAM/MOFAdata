@@ -12,7 +12,7 @@
 data(reactomeGS)
 }
 \description{
-A matrix containing human gene sets from the Reactome v59 Pathway data base (https://reactome.org).
+A matrix containing human gene sets from the Reactome v59 Pathway data base (\url{https://reactome.org}).
 \describe{
 \item{species:}{Homo sapiens}
 \item{Gene IDs:}{Ensembl IDs from version 75 (i.e. ENSG00000125798)}

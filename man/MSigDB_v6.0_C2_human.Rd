@@ -12,7 +12,7 @@
 data(MSigDB_v6.0_C2_human)
 }
 \description{
-A matrix containing human gene sets from the MSigDB 6.0 data base (http://software.broadinstitute.org/gsea/msigdb).
+A matrix containing human gene sets from the MSigDB 6.0 data base (\url{http://software.broadinstitute.org/gsea/msigdb}).
 \describe{
 \item{species:}{Homo sapiens}
 \item{Gene IDs:}{Ensembl IDs from version 75 (i.e. ENSG00000125798)}

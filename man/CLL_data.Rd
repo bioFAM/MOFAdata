@@ -12,7 +12,7 @@
   \item{Mutations: }{Mutation status for 69 selected genes}
 }}
 \source{
-\url{\code{https://www.ncbi.nlm.nih.gov/pubmed/29227286}}
+\url{https://www.ncbi.nlm.nih.gov/pubmed/29227286}
 }
 \usage{
 data(CLL_data)

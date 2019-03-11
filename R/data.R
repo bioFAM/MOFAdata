@@ -13,7 +13,7 @@
 #' }
 #' @name CLL_data
 #' @usage data(CLL_data)
-#' @source \url{\code{https://www.ncbi.nlm.nih.gov/pubmed/29227286}}
+#' @source \url{https://www.ncbi.nlm.nih.gov/pubmed/29227286}
 "CLL_data"
 
 
@@ -26,13 +26,13 @@
 #' samples in CLL_data
 #' @name CLL_covariates
 #' @usage data(CLL_covariates)
-#' @source \url{\code{https://www.ncbi.nlm.nih.gov/pubmed/29227286}}
+#' @source \url{https://www.ncbi.nlm.nih.gov/pubmed/29227286}
 "CLL_covariates"
 
 
 #' MSigDB_v6.0_C2_mouse
 #'
-#' A matrix containing mouse gene sets from the MSigDB 6.0 data base (http://software.broadinstitute.org/gsea/msigdb).
+#' A matrix containing mouse gene sets from the MSigDB 6.0 data base (\url{http://software.broadinstitute.org/gsea/msigdb}).
 #' \describe{
 #' \item{species:}{Mus musculus}
 #' \item{Gene IDs:}{Gene symbol/name (i.e. FOXA2)}
@@ -46,7 +46,7 @@
  
  #' MSigDB_v6.0_C5_mouse
  #'
- #' A matrix containing mouse gene sets from the MSigDB 6.0 data base (http://software.broadinstitute.org/gsea/msigdb).
+ #' A matrix containing mouse gene sets from the MSigDB 6.0 data base (\url{http://software.broadinstitute.org/gsea/msigdb}).
  #' \describe{
  #' \item{species:}{Mus musculus}
  #' \item{Gene IDs:}{Gene symbol/name (i.e. FOXA2)}
@@ -60,7 +60,7 @@
  
  #' MSigDB_v6.0_C2_human
  #'
- #' A matrix containing human gene sets from the MSigDB 6.0 data base (http://software.broadinstitute.org/gsea/msigdb).
+ #' A matrix containing human gene sets from the MSigDB 6.0 data base (\url{http://software.broadinstitute.org/gsea/msigdb}).
  #' \describe{
  #' \item{species:}{Homo sapiens}
  #' \item{Gene IDs:}{Ensembl IDs from version 75 (i.e. ENSG00000125798)}
@@ -74,7 +74,7 @@
  
  #' MSigDB_v6.0_C5_human
  #'
- #' A matrix containing human gene sets from the MSigDB 6.0 data base (http://software.broadinstitute.org/gsea/msigdb).
+ #' A matrix containing human gene sets from the MSigDB 6.0 data base (\url{http://software.broadinstitute.org/gsea/msigdb}).
  #' \describe{
  #' \item{species:}{Homo sapiens}
  #' \item{Gene IDs:}{Ensembl IDs from version 75 (i.e. ENSG00000125798)}
@@ -88,7 +88,7 @@
  
  #' reactomeGS
  #'
- #' A matrix containing human gene sets from the Reactome v59 Pathway data base (https://reactome.org).
+ #' A matrix containing human gene sets from the Reactome v59 Pathway data base (\url{https://reactome.org}).
  #' \describe{
  #' \item{species:}{Homo sapiens}
  #' \item{Gene IDs:}{Ensembl IDs from version 75 (i.e. ENSG00000125798)}

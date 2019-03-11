@@ -7,7 +7,7 @@ output:
     toc: false
 bibliography: MOFAdata_references.bib
 vignette: >
-  %\VignetteIndexEntry{data_overview}
+  %\VignetteIndexEntry{MOFAdata}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
