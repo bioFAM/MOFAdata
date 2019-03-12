@@ -5,6 +5,7 @@ date: "`r Sys.Date()`"
 output:
   BiocStyle::html_document:
     toc: false
+package: MOFAdata
 bibliography: MOFAdata_references.bib
 vignette: >
   %\VignetteIndexEntry{MOFAdata}
@@ -12,8 +13,8 @@ vignette: >
   %\VignetteEncoding{UTF-8}
 ---
 
-The MOFAdata package contains several data sets to be used
-for illustration pruposes in the R package MOFA. 
+The `MOFAdata` package contains several data sets to be used
+for illustration pruposes in the R package `MOFA`. 
 Please refer to the vignettes in the MOFA package,
 where we explain in detail how MOFA can be trained on the data
 and how the resulting model is to be analysed.
