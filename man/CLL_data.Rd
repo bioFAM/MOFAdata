@@ -4,17 +4,22 @@
 \name{CLL_data}
 \alias{CLL_data}
 \title{CLL_data}
-\format{A list containing omic measurements for n=200 patient samples that are used as input data for MOFA
+\format{A list of matrices, with the following -omics:
 \itemize{
-  \item{mRNA: }{normalized expression values of most variable genes, p=5000}
-  \item{Methylation: }{methylation M-values in most varibale CpG sites, p=4248}
-  \item{Drugs: }{viability values in response t different drugs adn concentrations, p=310}
-  \item{Mutations: }{Mutation status for selected genes, p=69}
+  \item{mRNA: }{normalized expression values for the 5000 most variable genes}
+  \item{Methylation: }{methylation M-values for the 4248 most variable CpG sites}
+  \item{Drugs: }{viability values in response to 310 different drugs and concentrations}
+  \item{Mutations: }{Mutation status for 69 selected genes}
 }}
+\source{
+\url{https://www.ncbi.nlm.nih.gov/pubmed/29227286}
+}
 \usage{
 data(CLL_data)
 }
 \description{
-A list containing different omic measurements for CLL patient samples
+A list containing different omic measurements for Chronic lymphocytic leukaemia (CLL) patient samples. \cr
+The data set was originally published in \url{https://www.ncbi.nlm.nih.gov/pubmed/29227286}.\cr
+The MOFA analysis for this data set can be found in \url{http://msb.embopress.org/content/14/6/e8124}
 }
 \keyword{datasets}

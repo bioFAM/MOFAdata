@@ -4,12 +4,18 @@
 \name{reactomeGS}
 \alias{reactomeGS}
 \title{reactomeGS}
-\format{A matrix containing feature binary membership indictors for different genes (in columns)
- and Reactome Gene Sets (in rows).}
+\format{Matrix containing 1304 biological pathways in rows and 18818 genes (ensemble IDs) in columns.}
+\source{
+\url{https://reactome.org}
+}
 \usage{
 data(reactomeGS)
 }
 \description{
-A matrix containing feature binary membership indictors for the Reactome Gene Sets.
+A matrix containing human gene sets from the Reactome v59 Pathway data base (\url{https://reactome.org}).
+\describe{
+\item{species:}{Homo sapiens}
+\item{Gene IDs:}{Ensembl IDs from version 75 (i.e. ENSG00000125798)}
+}
 }
 \keyword{datasets}
