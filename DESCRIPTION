@@ -1,12 +1,12 @@
 Package: MOFAdata
 Type: Package
 Title: Data package for Multi-Omics Factor Analysis (MOFA)
-Version: 0.99.5
-Maintainer: Ricard Argelaguet <ricard@ebi.ac.uk> and Britta Velten <britta.velten@embl.de>
+Version: 0.99.6
+Maintainer: Britta Velten <britta.velten@embl.de>
 Author: Ricard Argelaguet, Britta Velten, Damien Arnol, Florian Buettner, Wolfgang Huber, Oliver Stegle
 Date: 2018-06-26
 License: LGPL-3
-Depends: R (>= 2.10)
+Depends: R (>= 3.5)
 Description: A collection of datasets to accompany the R package MOFA and illustrate running and analysing MOFA models.
 Encoding: UTF-8
 Suggests: knitr, MultiAssayExperiment
