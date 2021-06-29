@@ -9,7 +9,7 @@ License: LGPL-3
 Depends: R (>= 3.5)
 Description: A collection of datasets to accompany the R package MOFA and illustrate running and analysing MOFA models.
 Encoding: UTF-8
-Suggests: knitr, MultiAssayExperiment
+Suggests: knitr, MultiAssayExperiment, rmarkdown
 biocViews: ReproducibleResearch
 VignetteBuilder: knitr
 LazyData: false
