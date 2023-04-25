@@ -1,7 +1,7 @@
 Package: MOFAdata
 Type: Package
 Title: Data package for Multi-Omics Factor Analysis (MOFA)
-Version: 1.16.0
+Version: 1.17.0
 Maintainer: Britta Velten <britta.velten@gmail.com>
 Author: Ricard Argelaguet, Britta Velten, Damien Arnol, Florian Buettner, Wolfgang Huber, Oliver Stegle
 Date: 2018-06-26
